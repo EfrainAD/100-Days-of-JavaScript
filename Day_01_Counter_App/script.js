@@ -4,7 +4,7 @@ const resetBtn = document.querySelector('.reset')
 const addBtn = document.querySelector('.add')
 
 subtractBtn.addEventListener('click', () => {
-  count.innerText = --(count.innerText)
+  count.innerText--
   colorChange()
 })
 resetBtn .addEventListener('click', () => {
@@ -12,7 +12,7 @@ resetBtn .addEventListener('click', () => {
   colorChange()
 })
 addBtn.addEventListener('click', () => {
-  count.innerText = ++(count.innerText)
+  count.innerText++
   colorChange()
 })
 
