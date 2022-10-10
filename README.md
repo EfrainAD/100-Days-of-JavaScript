@@ -8,3 +8,6 @@
 
 ## Day Two
 <p>Better understood Math.random() now.</p>
+
+## Day Three
+<p>Cool Way to generate the numbers in one lne.</p>
