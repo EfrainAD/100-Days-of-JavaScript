@@ -96,12 +96,14 @@ form button:hover {
   width: 80%;
   max-width: 60rem;
   background-color: #eee;
-  margin: 15% auto;
+  margin:  15% auto;
   padding: 2rem;
   border: 1px solid #777;
   position: relative;
+  animation: slide ease 1.5s;
+}
+.modal-content h1 {
   text-align: center;
-  animation: slide ease 0.8s;
 }
 
 @keyframes slide {
@@ -117,7 +119,7 @@ form button:hover {
   position: absolute;
   top: 5px;
   right: 10px;
-  color: var(--color-primary);
+  color: vrar(--color-primary);
   font-size: 2rem;
   cursor: pointer;
 }

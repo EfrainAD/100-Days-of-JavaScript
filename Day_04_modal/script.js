@@ -1,15 +1,24 @@
 const modal = document.querySelector('.modal')
 
 const showModal = () => {
-     console.log('showModal here')
      modal.style.display = 'block'
 }
 const closeModal = () => {
-     modal.style.display = 'none'
+     modal.classList.add('slide-up')
+     setTimeout(() => {
+          modal.style.display = 'none'
+          modal.classList.remove('slide-up')
+     }, 800)
 }
 
-document.querySelector('.close').addEventListener('click', closeModal)
 document.querySelector('.btn').addEventListener('click', (e) => {
      e.preventDefault()
      showModal()
 })
+
+document.querySelector('.close').addEventListener('click', closeModal)
+
+window.onclick = (e) => {
+     if (e.target == modal)
+          closeModal()
+}
