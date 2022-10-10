@@ -4,7 +4,7 @@ const showModal = () => {
      modal.style.display = 'block'
 }
 const closeModal = () => {
-     modal.classList.add('slide-up')
+     document.querySelector('.modal-content').classList.add('slide-up')
      setTimeout(() => {
           modal.style.display = 'none'
           modal.classList.remove('slide-up')
