@@ -11,3 +11,8 @@
 
 ## Day Three
 <p>Cool Way to generate the numbers in one lne.</p>
+
+## Day Four
+<p>Got a needed reminder that form submit refreshes the page.</p>
+<p>I now have a better understanding of position: absolute; </p>
+<p>Learned how add closing animations to a modal.</p>
