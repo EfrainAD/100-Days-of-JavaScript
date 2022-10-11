@@ -16,3 +16,6 @@
 <p>Got a needed reminder that form submit refreshes the page.</p>
 <p>I now have a better understanding of position: absolute; </p>
 <p>Learned how add closing animations to a modal.</p>
+
+## Day Five
+<p>I like my solution better. Less operations while being easier to read too</p>
