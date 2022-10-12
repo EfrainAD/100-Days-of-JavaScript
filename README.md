@@ -22,3 +22,10 @@
 
 ## Day Six
 <p>The .match(/([a,e,i,o,u])/) use was much nicer then mine solution. I really need to sit down and learn regex.</p>
+
+## Day Seven
+<p>So day seven gave me this little gum. I was getting an odd errer when I would tab over the the submit button verse just clicking on it.</p>
+<blockquote>Assertion failed: Input argument is not an HTMLInputElement</blockquote>
+<p>Turns out it a lastpass error.</p>
+<p>This had all kinds of learning. I googled how to copy. I learned from the solution I can "select/highlight" the text. I think that a very nice touch.</p>
+<p></p>
