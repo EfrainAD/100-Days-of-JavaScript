@@ -19,3 +19,6 @@
 
 ## Day Five
 <p>I like my solution better. Less operations while being easier to read too</p>
+
+## Day Six
+<p>The .match(/([a,e,i,o,u])/) use was much nicer then mine solution. I really need to sit down and learn regex.</p>
