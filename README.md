@@ -28,4 +28,7 @@
 <blockquote>Assertion failed: Input argument is not an HTMLInputElement</blockquote>
 <p>Turns out it a lastpass error.</p>
 <p>This had all kinds of learning. I googled how to copy. I learned from the solution I can "select/highlight" the text. I think that a very nice touch.</p>
+
+## Day Eight
+<p>Wish they just gave directions so I didn't need to watch to figure out what it was to do. Then again maybe I should have ran the solution and guessed. I really don't want add video or audio to my google drive, but There is one place I wonder if maybe cold cause issues when working with the URL.</p>
 <p></p>
