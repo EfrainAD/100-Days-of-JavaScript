@@ -31,4 +31,7 @@
 
 ## Day Eight
 <p>Wish they just gave directions so I didn't need to watch to figure out what it was to do. Then again maybe I should have ran the solution and guessed. I really don't want add video or audio to my google drive, but There is one place I wonder if maybe cold cause issues when working with the URL.</p>
+
+## Day Nine
+<p>Simple. I never used input before through the event listener.</p>
 <p></p>
