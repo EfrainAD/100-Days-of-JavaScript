@@ -35,3 +35,7 @@
 ## Day Nine
 <p>Simple. I never used input before through the event listener.</p>
 <p></p>
+
+## Day Ten
+<p>The solution given was much nicer. Mine only checks for a netwrok connection. Fetching a picture with a time stamp on the url so it wouldn't use your stored one was very nice.</p>
+<p></p>
