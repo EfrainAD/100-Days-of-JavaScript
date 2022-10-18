@@ -23,37 +23,45 @@ const questions = [
 const submitAnswer = (e) => {
      if (e.target.innerHTML.match(answer)) {
           correctAnswerCount++
-          console.log('RIGHT')
-     } else console.log('wrong')
+     }
      progressStat++
      startQuestion()
      // progressMsg.innerHTML = `Question ${progressStat} of ${progressTotal}`
 }
 
 const startQuiz = () => {
-     questions.map(value => ({ value, sort: Math.random() }))
-     .sort((a, b) => a.sort - b.sort)
-     .map(({ value }) => value)
-     
-     console.log(questions)
+     for (let i = questions.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          const temp = questions[i];
+          questions[i] = questions[j];
+          questions[j] = temp;
+     }
+}
+const resetGameVar = () => {
+     progressStat = 0
+     correctAnswerCount = 0
+     answer = null
 }
 const gameEnd = () => {
-     console.log('Correct is ' + correctAnswerCount)
+     this.alert(`You got ${correctAnswerCount} out of ${progressTotal} correct. Press ok to play gain. :)`)
+     resetGameVar()
+     startQuiz()
+     startQuestion()
 }
 const startQuestion = () => {
-     if (progressStat+1 === progressTotal) {
+     if (progressStat === progressTotal) {
           gameEnd()
-     }
-     question.innerHTML = questions[progressStat].question
-     progressMsg.innerHTML = `Question ${progressStat + 1} of ${progressTotal}`
-
-     console.table(questions)
-     answer = questions[progressStat].answer
+     } else {
+          question.innerHTML = questions[progressStat].question
+          progressMsg.innerHTML = `Question ${progressStat + 1} of ${progressTotal}`
      
-     choice0.innerHTML = questions[progressStat].options[0]
-     choice1.innerHTML = questions[progressStat].options[1]
-     choice2.innerHTML = questions[progressStat].options[2]
-     choice3.innerHTML = questions[progressStat].options[3]
+          answer = questions[progressStat].answer
+          
+          choice0.innerHTML = questions[progressStat].options[0]
+          choice1.innerHTML = questions[progressStat].options[1]
+          choice2.innerHTML = questions[progressStat].options[2]
+          choice3.innerHTML = questions[progressStat].options[3]
+     }
 }
 startQuiz()
 startQuestion()
