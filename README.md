@@ -38,4 +38,7 @@
 
 ## Day Ten
 <p>The solution given was much nicer. Mine only checks for a netwrok connection. Fetching a picture with a time stamp on the url so it wouldn't use your stored one was very nice.</p>
+
+## Day Eleven
+<p>I have never actaully seen class within class like that. I never had understood what that chaining looked like that I do all the time with premade librarys we use. Using pre-made and making your own definitely seem different at frist glance. I'm sure iwth more exposure, my mind can sttart thinking in that way.</p>
 <p></p>
