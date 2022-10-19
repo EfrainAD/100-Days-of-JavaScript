@@ -41,4 +41,7 @@
 
 ## Day Eleven
 <p>I have never actaully seen class within class like that. I never had understood what that chaining looked like that I do all the time with premade librarys we use. Using pre-made and making your own definitely seem different at frist glance. I'm sure iwth more exposure, my mind can sttart thinking in that way.</p>
+
+## Day Twelve
+<p>Needed to see video to understand what was wanted, so this is on hold for later so I have time to forget what I saw.</p>
 <p></p>
