@@ -44,4 +44,10 @@
 
 ## Day Twelve
 <p>Needed to see video to understand what was wanted, so this is on hold for later so I have time to forget what I saw.</p>
+
+## Day Thirteen
+<p>Another needed to see video to understand what was wanted, so this is on hold for later so I have time to forget what I saw.</p>
+
+
+<p></p>
 <p></p>
