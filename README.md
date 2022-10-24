@@ -48,6 +48,6 @@
 ## Day Thirteen
 <p>Another needed to see video to understand what was wanted, so this is on hold for later so I have time to forget what I saw.</p>
 
-
-<p></p>
+## Day Fourteen
+<p>Need to be careful about web browser security. And to change web broswers.</p>
 <p></p>
