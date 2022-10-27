@@ -47,7 +47,11 @@
 
 ## Day Thirteen
 <p>Another needed to see video to understand what was wanted, so this is on hold for later so I have time to forget what I saw.</p>
+<p>Back, definitly forgot what I saw. I read up it to get it. The solution was easer to read then mine without knwoing anything. I pulled from the example code on MDN.</p>
+<p>I did learn if I add two js files in one html, my delairing carries over to te second file.</p>
 
 ## Day Fourteen
 <p>Need to be careful about web browser security. And to change web broswers.</p>
+
+<p></p>
 <p></p>
