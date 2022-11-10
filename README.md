@@ -52,5 +52,9 @@
 <p>I did learn if I add two js files in one html, my delairing carries over to te second file.</p>
 
 ## Day Fourteen
+<p>Saw video coming back to it another day.</p>
+<p></p>
+
+## Day Fifteen
 <p></p>
 <p></p>
