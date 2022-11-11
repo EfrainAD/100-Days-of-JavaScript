@@ -56,5 +56,7 @@
 <p></p>
 
 ## Day Fifteen
-<p></p>
+<p>Got date stuff reinforced. And a typo reinforced that I can use backticks/(template literals) in objects</p>
+
+## Day Sixteen
 <p></p>
