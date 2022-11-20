@@ -20,6 +20,7 @@ const parseData = (data) => {
           temp: `Temp: ${data.main.temp} <span>°F</span>`,
           weather: `Weather: ${data.weather[0].main}`,
           tempRange: `Range: ${data.main.temp_min}°F / ${data.main.temp_max}°F`,
+          weatherIcon: `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`,
      }
 }
 const dipsalyData = (parsedData) => {
@@ -29,12 +30,26 @@ const dipsalyData = (parsedData) => {
      temp = document.querySelector('.temp')
      weather = document.querySelector('.weather')
      tempRange = document.querySelector('.temp-range')
+     weatherIcon = document.querySelector('.weather-icon')
+     error = document.querySelector('.error')
      // Change all there values
      city.innerHTML = parsedData.city
      date.innerHTML = parsedData.date
      temp.innerHTML = parsedData.temp
      weather.innerHTML = parsedData.weather
      tempRange.innerHTML = parsedData.tempRange
+     weatherIcon.src = parsedData.weatherIcon
+     error.innerHTML = ''
+}
+const checkError = (json) => {
+     if (json.cod !== 200) {
+          throw json
+     }
+     else return json
+}
+const displayError = (err) => {
+     console.log('Object retreaved: ', err)
+     document.querySelector('.error').innerHTML = `Error Message: ${err.message}<br>Check your spelling.`
 }
 const getData = () => {
      const search = searchField.value
@@ -42,8 +57,10 @@ const getData = () => {
      
      fetch(url)
           .then((response) => response.json())
+          .then(json => {console.log(json); return json})
+          .then(json => checkError(json))
           .then((data) => parseData(data))
           .then((parsedData)=> dipsalyData(parsedData))
-          .catch((err) => console.error)
+          .catch(err => displayError(err))
 }
 submitBtn.addEventListener('click', getData)
