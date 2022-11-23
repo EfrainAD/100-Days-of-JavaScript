@@ -59,4 +59,7 @@
 <p>Got date stuff reinforced. And a typo reinforced that I can use backticks/(template literals) in objects</p>
 
 ## Day Sixteen
+<p>Got new idea to just change the display block and display none. I was remaking the list everytime. I did look to see if there was any nice build in way to add and take way form a li, there doesn't seem to be.</p>
+
+
 <p></p>
