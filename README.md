@@ -61,5 +61,5 @@
 ## Day Sixteen
 <p>Got new idea to just change the display block and display none. I was remaking the list everytime. I did look to see if there was any nice build in way to add and take way form a li, there doesn't seem to be.</p>
 
-
-<p></p>
+## Day Seventeen
+<p>Got some practice with dates. I had never chain them before.</p>
