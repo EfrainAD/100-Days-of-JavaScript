@@ -63,3 +63,6 @@
 
 ## Day Seventeen
 <p>Got some practice with dates. I had never chain them before.</p>
+
+## Day Eighteen
+<p>Learned more about clearInterval, and I did the times better.</p>
