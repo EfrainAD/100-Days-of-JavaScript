@@ -125,3 +125,11 @@ select {
 .total {
   color: red;
 }
+
+/* My Change */
+/* Remove arrows from number fuild */
+input[type=number],
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+}
