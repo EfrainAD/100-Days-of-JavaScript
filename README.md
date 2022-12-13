@@ -66,3 +66,7 @@
 
 ## Day Eighteen
 <p>Learned more about clearInterval, and I did the times better.</p>
+
+## Day Twenty
+<p>I didn't know I could target thing like this document.querySelectorAll('.nav-list li a'), That would have been handy in the past.</p>
+<p>I would use 'e.target.getAttribute('href')', I have not seen 'this.getAttribute("href")' I don't think it's as readable but I do think it is cleaner. I'll be messing around with this in the future.</p>
