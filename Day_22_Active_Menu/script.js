@@ -5,4 +5,4 @@ const changeActiveLink =(e) => {
      e.target.parentNode.classList.add('active')
 }
 
-links.forEach(link => link.addEventListener('click', changeActiveLink))
+links.forEach(link => link.addEventListener('click', changeActiveLink)) 
