@@ -70,3 +70,6 @@
 ## Day Twenty
 <p>I didn't know I could target thing like this document.querySelectorAll('.nav-list li a'), That would have been handy in the past.</p>
 <p>I would use 'e.target.getAttribute('href')', I have not seen 'this.getAttribute("href")' I don't think it's as readable but I do think it is cleaner. I'll be messing around with this in the future.</p>
+
+## Day TwentyOne
+<p>Learned tat classList.toggle has a second pram that is a condition. That ocntrol if it can be added or removed, function as an if condition on if it can me added or removed.</p>
