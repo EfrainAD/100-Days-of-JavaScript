@@ -73,3 +73,6 @@
 
 ## Day TwentyOne
 <p>Learned tat classList.toggle has a second pram that is a condition. That ocntrol if it can be added or removed, function as an if condition on if it can me added or removed.</p>
+
+## Day TwentyTwo
+<p>this. does not seem to work the way I thought I could use it. I need to keep an eye open for that.</p>
