@@ -77,4 +77,4 @@
 ## Day TwentyTwo
 <p>this. does not seem to work the way I thought I could use it. I need to keep an eye open for that.</p>
 <p>Had a better way to remove 'active' class. I could grab the list then did a .querySelector on the active class.</p>
-<p>I had a mis-understanding of what e.target will get when I click. I though if I put addEvntLister on .nav-list, I thought it would give me taht, not the a tag. I was wrong.</p>
+<p>I had a mis-understanding of what e.target will get when I click. I though if I put addEvntLister on .nav-list, I thought it would give me taht, not the a tag. I was wrong. I also relice that I need to put an if stament to check I have the right element before I tryed to do anything with e.target</p>
