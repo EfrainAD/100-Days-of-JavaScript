@@ -78,3 +78,10 @@
 <p>this. does not seem to work the way I thought I could use it. I need to keep an eye open for that.</p>
 <p>Had a better way to remove 'active' class. I could grab the list then did a .querySelector on the active class.</p>
 <p>I had a mis-understanding of what e.target will get when I click. I though if I put addEvntLister on .nav-list, I thought it would give me taht, not the a tag. I was wrong. I also relice that I need to put an if stament to check I have the right element before I tryed to do anything with e.target</p>
+
+## Day TwentyThree - TwentyNine
+<p>how I can use transition: all 0.3s; to take effect in both direction from changeing of adding a another class. I'll need to run an experement to make sure I understand this correctly.</p>
+
+## Day Thirty 
+<p>Solution was clearning but I didn't like that if I want a symbol I may or not may not get it though. No idea how to tell what is better.</p>
+
