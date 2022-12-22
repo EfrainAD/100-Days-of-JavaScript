@@ -146,6 +146,7 @@ h2 {
 }
 
 .progress {
+  visibility: visible;
   width: 0%;
   height: 3px;
   background-color: var(--color-sec);
