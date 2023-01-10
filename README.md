@@ -85,6 +85,10 @@
 ## Day Thirty 
 <p>Solution was clearning but I didn't like that if I want a symbol I may or not may not get it though. No idea how to tell what is better.</p>
 
+## Day Thirtythree 
+<p>Fun one, I like my code better.</p>
+
+
 ## Day Thirtyfour 
 <p>Completed without looking, googled IBM calulation and what was overwait.</p>
 <p>I did like the validationg height then weight, I think it left to better error messages for user</p>
