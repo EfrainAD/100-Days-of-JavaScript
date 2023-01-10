@@ -17,8 +17,15 @@ const getNote = (index) => {
      const notes = getNotes()
      return notes[index]
 }
+const clearForm = () => {
+     noteTitle.value = ''
+     noteText.value = ''
+}
 const displayNotes = () => {
      const notes = getNotes()
+     
+     if (notes.length === 0) 
+          return notesContaner.innerHTML = '<p>There are no notes to display.</p>'
      
      notesContaner.innerHTML = ''
      
@@ -44,10 +51,7 @@ const displayNotes = () => {
                <hr />
                <h3 class="note-title">Title: ${title}</h3>
                <p class="note-text">${text}</p>`
-     });
-     //  clear fields
-     noteTitle.value = ''
-     noteText.value = ''
+          });
 }
 const addNoteToLS = (note) => {
      const notes = getNotes()
@@ -77,6 +81,7 @@ const addNote = (e) => {
      // Update Notes
      addNoteToLS(note)
      displayNotes()
+     clearForm()
 }
 const updateNote = (index) => {
      const {title, text} = getNote(index) 
