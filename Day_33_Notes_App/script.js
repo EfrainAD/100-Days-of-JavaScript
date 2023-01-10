@@ -85,10 +85,19 @@ const addNote = (e) => {
 }
 const updateNote = (index) => {
      const {title, text} = getNote(index) 
+
+     // Validation
+     if ( noteTitle.value.trim() !== '' ||
+          noteText.value.trim() !== '') 
+     {
+          const comfirmClear = confirm('This will clear out what you have in the add note fields')
+          if (!comfirmClear) return
+     }
+
      deleteNoteFromLS(index)
-     displayNotes()
      noteTitle.value = title
      noteText.value = text
+     displayNotes()
 }
 const deleteAllNotes = () => {
      const reply = confirm('Are you sure you want to delete everything?')
