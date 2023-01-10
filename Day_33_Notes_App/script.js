@@ -70,6 +70,10 @@ const addNote = (e) => {
      const text = noteText.value
      const note = {title, text}
 
+     // Validations
+     if (title.trim() === '' || text.trim() === '')
+          return alert('All fields are required.')
+
      // Update Notes
      addNoteToLS(note)
      displayNotes()
