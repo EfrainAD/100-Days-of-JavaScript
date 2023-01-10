@@ -7,7 +7,10 @@ const resetBtn = document.querySelector('.reset')
 const roundTenth = (num) => {
      return Math.round(10 * num)/10
 }
-
+const displayResults = (categorie, BMI, color) => {
+     result.innerHTML = `${categorie}: ${BMI}`
+     result.style.backgroundColor = color
+}
 const getResults = (e) => {
      e.preventDefault()
      const h = height.value
@@ -18,19 +21,19 @@ const getResults = (e) => {
           return alert('Values are missing.')
      if (isNaN(h) || isNaN(w))
           return alert('Values must be a number.')
-     // if ()
 
+     // calculate
      const results = roundTenth((w / h**2) * 703)
-
-     result.innerHTML = results
+     
      if (results < 18.5)
-          result.style.backgroundColor = 'yellow'
+          displayResults(`Underweight`, results, 'yellow')
      else if (results < 24.9)
-          result.style.backgroundColor = 'green'
+          displayResults(`Normal`, results, 'green')
      else if (results < 29.9)
-          result.style.backgroundColor = 'red'
+          displayResults(`Overweight`, results, 'red')
      else 
-          result.style.backgroundColor = 'black'
+          displayResults(`Obesity`, results, 'black')
+
      resetBtn.style.display = 'block'
 }
 const reset = () => {
@@ -42,3 +45,9 @@ const reset = () => {
 
 calculateBtn.addEventListener('click', getResults)
 resetBtn.addEventListener('click', reset)
+
+// BMI Categories:
+// Underweight = <18.5
+// Normal weight = 18.5–24.9
+// Overweight = 25–29.9
+// Obesity = BMI of 30 or greater
