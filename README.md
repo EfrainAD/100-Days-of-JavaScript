@@ -120,3 +120,13 @@
 ## Day ThirtyFive
 
 <p>I got the idea to move some repeated calculations into the loop where I was adding the event listener, so it will run that one time. because of this I created different functions for each task, which I believe reduces processing and makes the code more readable.</p>
+
+## Day ThirtySeven
+
+<ol>
+   <li>I limited things down to one if stament.</li>
+   <li>Also keeps my code more try.</li>
+   <li>I had cone this field.addEventListener('input', convertAllFields), I learned I could have added that to the ocument.querySelector('form').addEventListener('input', convertAllFields)</li>
+   <li>And becareful to not assume to fast about error messages. I didn't relize why, was throwing me an error. I relized when I looked at the line making it.</li>
+   <li>input type="number" do not take , when you trying to pass them a value</li>
+</ol>

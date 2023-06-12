@@ -54,3 +54,5 @@ const convertAllFields = (e) => {
 allFields.forEach(({ field }) =>
    field.addEventListener('input', convertAllFields)
 )
+// Another way I learned
+// document.querySelector('form').addEventListener('input', convertAllFields)
