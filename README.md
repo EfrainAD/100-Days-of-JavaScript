@@ -130,3 +130,7 @@
    <li>And becareful to not assume to fast about error messages. I didn't relize why, was throwing me an error. I relized when I looked at the line making it.</li>
    <li>input type="number" do not take , when you trying to pass them a value</li>
 </ol>
+
+## Day ThirtyEight
+
+<p>I think I did better with this one then last one. And I think this one more readable too</p>
