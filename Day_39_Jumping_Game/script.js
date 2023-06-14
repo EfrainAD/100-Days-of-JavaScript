@@ -38,8 +38,8 @@ const gameEnds = () => {
 // Main Function
 const animate = (e) => {
    if (e.code === 'Space') {
-      if (!isGameRunning()) gameStart()
-      else heroJump()
+      if (isGameRunning()) heroJump()
+      else gameStart()
    }
 }
 

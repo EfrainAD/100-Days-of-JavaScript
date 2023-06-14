@@ -134,3 +134,7 @@
 ## Day ThirtyEight
 
 <p>I think I did better with this one then last one. And I think this one more readable too</p>
+
+## Day ThirtyNine
+
+<p>I had used hero.addEventListener('animationend', heroJumped), I think that is much cleaner then setTimeout.</p>
