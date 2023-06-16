@@ -2,28 +2,34 @@ const accordion = document.querySelectorAll('.accordion')
 const desc = document.querySelectorAll('.desc')
 
 // Helper Functions
-const changeMaxHeight = async (index, height) => {
-   const value = height === 'null' ? null : `${height}px`
-   desc[index].style.maxHeight = value
+const openAccordion = (index) => {
+   desc[index].style.maxHeight = `${desc[index].scrollHeight}px`
+   accordion[index].classList.add('active')
 }
 
-const toggleDropdown = (index) => {
-   const maxHeight = desc[index].style.maxHeight
-   const scrollHeight = desc[index].scrollHeight
-
-   if (maxHeight) changeMaxHeight(index, 'null')
-   else changeMaxHeight(index, scrollHeight)
+const closeAccordion = (index) => {
+   desc[index].style.maxHeight = null
+   accordion[index].classList.remove('active')
 }
 
-const toggleAccordionHeader = (index) =>
-   accordion[index].classList.toggle('active')
+const isAccordionOpen = (index) => accordion[index].classList.contains('active')
 
-// Main Function
 const toggleAccordion = (index) => {
-   toggleDropdown(index)
-   toggleAccordionHeader(index)
+   if (isAccordionOpen(index)) closeAccordion(index)
+   else openAccordion(index)
+}
+// Main Function
+const handleAccordionClick = (index) => {
+   toggleAccordion(index)
+
+   accordion.forEach((_, i) => {
+      if (i !== index && isAccordionOpen(i)) {
+         closeAccordion(i)
+      }
+   })
 }
 
+// Add Event Listener
 accordion.forEach((element, index) => {
-   element.addEventListener('click', () => toggleAccordion(index))
+   element.addEventListener('click', () => handleAccordionClick(index))
 })
