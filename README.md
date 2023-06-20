@@ -138,3 +138,8 @@
 ## Day ThirtyNine
 
 <p>I had used hero.addEventListener('animationend', heroJumped), I think that is much cleaner then setTimeout.</p>
+
+## Day FortyFour
+
+<p>I ealrn from.reset()</p>
+<p>I should have just taken the whole block of HTML and imported it with template strings. It would have been faster and more readable. Giving meaningful names took a good amount of time.</p>
